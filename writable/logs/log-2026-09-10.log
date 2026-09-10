@@ -1,0 +1,56 @@
+CRITICAL - 2026-09-10 11:50:09 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: GET, Route: customers]
+in APPPATH\Controllers\Customers.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\codeigniter\\app\\Controllers\\Customers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Customers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Customers')
+ 4 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\Customers')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('customers')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 11:59:34 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: users]
+in APPPATH\Views\users.php on line 11.
+ 1 APPPATH\Views\users.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\users.php', 11)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\Users.php(17): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 11:59:59 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: users]
+in APPPATH\Views\users.php on line 11.
+ 1 APPPATH\Views\users.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\users.php', 11)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\Users.php(17): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-09-10 12:00:40 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: users]
+in APPPATH\Views\users.php on line 11.
+ 1 APPPATH\Views\users.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'C:\\xampp\\htdocs\\codeigniter\\app\\Views\\users.php', 11)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\codeigniter\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\Users.php(17): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
